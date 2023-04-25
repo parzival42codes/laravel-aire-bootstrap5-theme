@@ -52,7 +52,7 @@ class LaravelAireBootstrap5ThemeServiceProvider extends ServiceProvider
                     ],
                 ], 'select'            => [
                     'default' => [
-                        'display' => 'custom-select', 'size' => '', 'color' => '',
+                        'display' => 'form-select', 'size' => '', 'color' => '',
                     ], 'sm'   => 'custom-select-sm', 'lg' => 'custom-select-lg',
                 ], 'button'            => [
                     'default'      => [
