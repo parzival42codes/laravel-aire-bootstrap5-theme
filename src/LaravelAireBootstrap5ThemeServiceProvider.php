@@ -83,7 +83,6 @@ class LaravelAireBootstrap5ThemeServiceProvider extends ServiceProvider
         ]);
     }
 
-
     //    public const PACKAGE_NAME = 'laravel-aire-bootstrap5-theme';
     //
     //    public const PACKAGE_NAME_SHORT = 'aire-bootstrap5-theme';
@@ -217,6 +216,5 @@ class LaravelAireBootstrap5ThemeServiceProvider extends ServiceProvider
 
     public function registeringPackage(): void
     {
-
     }
 }
