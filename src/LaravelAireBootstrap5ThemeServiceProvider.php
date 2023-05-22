@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 
 class LaravelAireBootstrap5ThemeServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(): void
     {
         $this->loadViewsFrom(dirname(__DIR__).'/views', 'aire-bootstrap5');
 
