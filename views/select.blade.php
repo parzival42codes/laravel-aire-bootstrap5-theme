@@ -9,7 +9,7 @@
 		</option>
 	@endisset
 	
-	@foreach($options->getOptions() as $value => $label)
+	@foreach ($options->getOptions() as $value => $label)
 		
 		<option value="{{ $value }}" {{ $attributes->isValue($value) ? 'selected' : '' }}>
 			{{ $label }}

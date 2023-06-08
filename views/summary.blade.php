@@ -7,7 +7,7 @@
 
 		{{ trans_choice('aire::common.summary', $errors->count()) }}
 
-		@if($verbose)
+		@if ($verbose)
 
 			<ul class="pt-1">
 				@foreach ($errors->all() as $error)

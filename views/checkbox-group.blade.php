@@ -18,7 +18,7 @@
         </div>
     @endisset
 
-    @foreach($options->getOptions() as $option_value => $option_label)
+    @foreach ($options->getOptions() as $option_value => $option_label)
 
         <div {{ $attributes->label_wrapper }}>
             <input

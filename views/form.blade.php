@@ -2,7 +2,7 @@
 
 <form {{ $attributes }}>
 
-	@if(isset($_token) && 'GET' !== $method)
+	@if (isset($_token) && 'GET' !== $method)
 		<input type="hidden" name="_token" value="{{ $_token }}" />
 	@endif
 	

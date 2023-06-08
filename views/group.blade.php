@@ -3,9 +3,9 @@
 <div {{ $attributes }}>
     {{ $label }}
 
-    @if($prepend || $append)
+    @if ($prepend || $append)
         <div {{ $attributes->input_group }}>
-            @if($prepend)
+            @if ($prepend)
                 <div {{ $attributes->prepend }}>
                     <div class="input-group-text">
                         {{ $prepend }}
@@ -15,7 +15,7 @@
 
             {{ $element }}
 
-            @if($append)
+            @if ($append)
                 <div {{ $attributes->append }}>
                     <div class="input-group-text">
                         {{ $append }}
