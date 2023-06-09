@@ -9,7 +9,7 @@ class LaravelAireBootstrap5ThemeServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        $this->loadViewsFrom(dirname(__DIR__).'/views', 'aire-bootstrap5');
+        $this->loadViewsFrom(dirname(__DIR__) . '/views', 'aire-bootstrap5');
 
         Aire::setTheme('aire-bootstrap5', null, [
             'default_classes' => [
