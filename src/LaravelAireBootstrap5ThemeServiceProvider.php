@@ -19,7 +19,7 @@ class LaravelAireBootstrap5ThemeServiceProvider extends ServiceProvider
                 'input' => 'form-control',
 
                 'checkbox' => 'form-check-input', 'checkbox_label' => 'form-check-label',
-                'checkbox_wrapper' => 'custom-control custom-checkbox',
+                'checkbox_wrapper' => 'form-check',
 
                 'checkbox_group' => 'form-check-input',
                 'checkbox_group_label' => 'form-check-label',
